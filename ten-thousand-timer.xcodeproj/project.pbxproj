@@ -15,6 +15,9 @@
 		1E369E5C25B2039900EDE123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E369E5A25B2039900EDE123 /* LaunchScreen.storyboard */; };
 		1E369E6725B2039900EDE123 /* ten_thousand_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E369E6625B2039900EDE123 /* ten_thousand_timerTests.swift */; };
 		1E369E7225B2039900EDE123 /* ten_thousand_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E369E7125B2039900EDE123 /* ten_thousand_timerUITests.swift */; };
+		3390F19CFBC9A9FA72E42542 /* Pods_ten_thousand_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDA95AC14DC9903A73D8889 /* Pods_ten_thousand_timerTests.framework */; };
+		C972DB2A0B7395DF7F428F0C /* Pods_ten_thousand_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C7CC145526F721FCA66383 /* Pods_ten_thousand_timer.framework */; };
+		F0019CF6A3B3615BA2B25742 /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE788BFB5295F30F91B654C /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039C48514DB9B10B803262E0 /* Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ten-thousand-timer-ten-thousand-timerUITests/Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E369E4C25B2039500EDE123 /* ten-thousand-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ten-thousand-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E369E4F25B2039500EDE123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E369E5125B2039500EDE123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		1E369E6D25B2039900EDE123 /* ten-thousand-timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ten-thousand-timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E369E7125B2039900EDE123 /* ten_thousand_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ten_thousand_timerUITests.swift; sourceTree = "<group>"; };
 		1E369E7325B2039900EDE123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2001D9A51361BC79DE5AF459 /* Pods-ten-thousand-timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ten-thousand-timerTests.release.xcconfig"; path = "Target Support Files/Pods-ten-thousand-timerTests/Pods-ten-thousand-timerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FE788BFB5295F30F91B654C /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ten_thousand_timer_ten_thousand_timerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDA95AC14DC9903A73D8889 /* Pods_ten_thousand_timerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ten_thousand_timerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C7CC145526F721FCA66383 /* Pods_ten_thousand_timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ten_thousand_timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93ECABB3AF2F0F9F2093AF44 /* Pods-ten-thousand-timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ten-thousand-timer.release.xcconfig"; path = "Target Support Files/Pods-ten-thousand-timer/Pods-ten-thousand-timer.release.xcconfig"; sourceTree = "<group>"; };
+		A318225B82703832548D4CFA /* Pods-ten-thousand-timer-ten-thousand-timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ten-thousand-timer-ten-thousand-timerUITests.release.xcconfig"; path = "Target Support Files/Pods-ten-thousand-timer-ten-thousand-timerUITests/Pods-ten-thousand-timer-ten-thousand-timerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE69FCA5294F971143B5EACC /* Pods-ten-thousand-timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ten-thousand-timer.debug.xcconfig"; path = "Target Support Files/Pods-ten-thousand-timer/Pods-ten-thousand-timer.debug.xcconfig"; sourceTree = "<group>"; };
+		F64004640B34F6661CB7FF55 /* Pods-ten-thousand-timerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ten-thousand-timerTests.debug.xcconfig"; path = "Target Support Files/Pods-ten-thousand-timerTests/Pods-ten-thousand-timerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C972DB2A0B7395DF7F428F0C /* Pods_ten_thousand_timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3390F19CFBC9A9FA72E42542 /* Pods_ten_thousand_timerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0019CF6A3B3615BA2B25742 /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				1E369E6525B2039900EDE123 /* ten-thousand-timerTests */,
 				1E369E7025B2039900EDE123 /* ten-thousand-timerUITests */,
 				1E369E4D25B2039500EDE123 /* Products */,
+				CC64DAF8F7821AD5F1E1EBFC /* Pods */,
+				54D3390285C99502320C12AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = "ten-thousand-timerUITests";
 			sourceTree = "<group>";
 		};
+		54D3390285C99502320C12AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C7CC145526F721FCA66383 /* Pods_ten_thousand_timer.framework */,
+				3FE788BFB5295F30F91B654C /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework */,
+				6CDA95AC14DC9903A73D8889 /* Pods_ten_thousand_timerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC64DAF8F7821AD5F1E1EBFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE69FCA5294F971143B5EACC /* Pods-ten-thousand-timer.debug.xcconfig */,
+				93ECABB3AF2F0F9F2093AF44 /* Pods-ten-thousand-timer.release.xcconfig */,
+				039C48514DB9B10B803262E0 /* Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig */,
+				A318225B82703832548D4CFA /* Pods-ten-thousand-timer-ten-thousand-timerUITests.release.xcconfig */,
+				F64004640B34F6661CB7FF55 /* Pods-ten-thousand-timerTests.debug.xcconfig */,
+				2001D9A51361BC79DE5AF459 /* Pods-ten-thousand-timerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E369E7625B2039900EDE123 /* Build configuration list for PBXNativeTarget "ten-thousand-timer" */;
 			buildPhases = (
+				45FE0C57E0517BDA39C7B43A /* [CP] Check Pods Manifest.lock */,
 				1E369E4825B2039500EDE123 /* Sources */,
 				1E369E4925B2039500EDE123 /* Frameworks */,
 				1E369E4A25B2039500EDE123 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E369E7925B2039900EDE123 /* Build configuration list for PBXNativeTarget "ten-thousand-timerTests" */;
 			buildPhases = (
+				B36335A1580A41134A90E00B /* [CP] Check Pods Manifest.lock */,
 				1E369E5E25B2039900EDE123 /* Sources */,
 				1E369E5F25B2039900EDE123 /* Frameworks */,
 				1E369E6025B2039900EDE123 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E369E7C25B2039900EDE123 /* Build configuration list for PBXNativeTarget "ten-thousand-timerUITests" */;
 			buildPhases = (
+				0A36B578552A5299A2179C55 /* [CP] Check Pods Manifest.lock */,
 				1E369E6925B2039900EDE123 /* Sources */,
 				1E369E6A25B2039900EDE123 /* Frameworks */,
 				1E369E6B25B2039900EDE123 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A36B578552A5299A2179C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ten-thousand-timer-ten-thousand-timerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45FE0C57E0517BDA39C7B43A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ten-thousand-timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36335A1580A41134A90E00B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ten-thousand-timerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E369E4825B2039500EDE123 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		1E369E7725B2039900EDE123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE69FCA5294F971143B5EACC /* Pods-ten-thousand-timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		1E369E7825B2039900EDE123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93ECABB3AF2F0F9F2093AF44 /* Pods-ten-thousand-timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +586,7 @@
 		};
 		1E369E7A25B2039900EDE123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64004640B34F6661CB7FF55 /* Pods-ten-thousand-timerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		1E369E7B25B2039900EDE123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2001D9A51361BC79DE5AF459 /* Pods-ten-thousand-timerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +632,7 @@
 		};
 		1E369E7D25B2039900EDE123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039C48514DB9B10B803262E0 /* Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		1E369E7E25B2039900EDE123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A318225B82703832548D4CFA /* Pods-ten-thousand-timer-ten-thousand-timerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

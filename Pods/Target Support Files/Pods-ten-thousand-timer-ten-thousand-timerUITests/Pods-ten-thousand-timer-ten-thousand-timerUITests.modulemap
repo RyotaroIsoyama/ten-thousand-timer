@@ -1,0 +1,6 @@
+framework module Pods_ten_thousand_timer_ten_thousand_timerUITests {
+  umbrella header "Pods-ten-thousand-timer-ten-thousand-timerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
