@@ -40,16 +40,16 @@
 		4BA3D29EA95F19F0D7C21D18B578A760 /* Pods-ten-thousand-timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ten-thousand-timer.release.xcconfig"; sourceTree = "<group>"; };
 		6E9A5A953C7AC032919F234FD1992E61 /* Pods-ten-thousand-timer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ten-thousand-timer-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75212996CC690290E818E1CBFBE1E270 /* Pods_ten_thousand_timerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ten_thousand_timerTests.framework; path = "Pods-ten-thousand-timerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75212996CC690290E818E1CBFBE1E270 /* Pods_ten_thousand_timerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ten_thousand_timerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		762E66D0721B2D6AEB4EBCB18BEA8586 /* Pods-ten-thousand-timer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ten-thousand-timer-dummy.m"; sourceTree = "<group>"; };
 		7C2AF474E3E9D378C9059527B1992681 /* Pods-ten-thousand-timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ten-thousand-timerTests.release.xcconfig"; sourceTree = "<group>"; };
-		7FF33E4C2BC44DFFB757E2BF465140D3 /* Pods_ten_thousand_timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ten_thousand_timer.framework; path = "Pods-ten-thousand-timer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF33E4C2BC44DFFB757E2BF465140D3 /* Pods_ten_thousand_timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ten_thousand_timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8240BE59F9C855DB45FAF19BD46990FE /* Pods-ten-thousand-timerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ten-thousand-timerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A4F0283221CED5346175E8B42494619 /* Pods-ten-thousand-timer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ten-thousand-timer-Info.plist"; sourceTree = "<group>"; };
 		9477703F4787C19A8B08FDD4820EDE33 /* Pods-ten-thousand-timerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ten-thousand-timerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A322EE0907591589FE4F3DBE13D0A946 /* Pods-ten-thousand-timerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ten-thousand-timerTests-dummy.m"; sourceTree = "<group>"; };
-		BB99BD34290A8F1DBE06C9585FD02624 /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ten_thousand_timer_ten_thousand_timerUITests.framework; path = "Pods-ten-thousand-timer-ten-thousand-timerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB99BD34290A8F1DBE06C9585FD02624 /* Pods_ten_thousand_timer_ten_thousand_timerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ten_thousand_timer_ten_thousand_timerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF357A60CD9D4A254545ADDAC298654 /* Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ten-thousand-timer-ten-thousand-timerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5C485143E74C0699E1EB648B3809130 /* Pods-ten-thousand-timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ten-thousand-timer.debug.xcconfig"; sourceTree = "<group>"; };
 		DC5FCD56C345B4650974335F67B09CAF /* Pods-ten-thousand-timer-ten-thousand-timerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ten-thousand-timer-ten-thousand-timerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -629,6 +629,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,6 +705,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
