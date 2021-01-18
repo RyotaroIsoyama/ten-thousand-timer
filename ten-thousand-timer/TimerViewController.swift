@@ -15,7 +15,6 @@ class TimerViewController: UIViewController {
     @IBOutlet weak var sub_seconds_label: UILabel!
     
     var timer = Timer()
-    var count:float = 0
     var hours:Int = 0
     var minutes:Int = 0
     var seconds:Int = 0
@@ -37,13 +36,29 @@ class TimerViewController: UIViewController {
     @IBAction func tapTimer(_ sender: Any) {
         if !timer.isValid {
             //動かす処理
-            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: <#T##Selector#>, userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(TimerViewController.updateTimeLabel), userInfo: nil, repeats: true)
         }else{
             //止める処理
         }
     }
     @objc func updateTimeLabel(){
-        count += 0.01
-        
+        sub_seconds += 1
+        if sub_seconds >= 100 {
+            sub_seconds = 0
+            sub_seconds_label.text = "\(sub_seconds)"
+            seconds += 1
+            if seconds >= 60{
+                seconds = 0
+                minutes += 1
+                if minutes >= 60{
+                    minutes = 0
+                    hours += 1
+                    hours_label.text = "\(hours)"
+                }
+                minutes_label.text = "\(minutes)"
+            }
+            seconds_label.text = "\(seconds)"
+        }
+        sub_seconds_label.text = "\(sub_seconds)"
     }
 }
