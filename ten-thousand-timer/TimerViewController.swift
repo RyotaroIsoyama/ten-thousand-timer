@@ -23,7 +23,8 @@ class TimerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        fetchTime()
+        firstSetLabel()
     }
     
     func fetchTime(){
@@ -39,13 +40,14 @@ class TimerViewController: UIViewController {
             timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(TimerViewController.updateTimeLabel), userInfo: nil, repeats: true)
         }else{
             //止める処理
+            timer.invalidate()
+            saveUserDefault()
         }
     }
     @objc func updateTimeLabel(){
         sub_seconds += 1
         if sub_seconds >= 100 {
             sub_seconds = 0
-            sub_seconds_label.text = "\(sub_seconds)"
             seconds += 1
             if seconds >= 60{
                 seconds = 0
@@ -55,10 +57,38 @@ class TimerViewController: UIViewController {
                     hours += 1
                     hours_label.text = "\(hours)"
                 }
-                minutes_label.text = "\(minutes)"
+                let minutes_label_text = makeLabelText(num: minutes)
+                minutes_label.text = minutes_label_text
             }
-            seconds_label.text = "\(seconds)"
+            let seconds_label_text = makeLabelText(num: seconds)
+            seconds_label.text = seconds_label_text
         }
-        sub_seconds_label.text = "\(sub_seconds)"
+        let sub_seconds_label_text = makeLabelText(num: sub_seconds)
+        sub_seconds_label.text = sub_seconds_label_text
+    }
+    
+    func firstSetLabel(){
+        let sub_seconds_label_text = makeLabelText(num: sub_seconds)
+        sub_seconds_label.text = sub_seconds_label_text
+        let seconds_label_text = makeLabelText(num: seconds)
+        seconds_label.text = seconds_label_text
+        let minutes_label_text = makeLabelText(num: minutes)
+        minutes_label.text = minutes_label_text
+        hours_label.text = "\(hours)"
+    }
+    
+    func saveUserDefault(){
+        UserDefaults.standard.setValue(hours, forKey: "hours")
+        UserDefaults.standard.setValue(minutes, forKey: "minutes")
+        UserDefaults.standard.setValue(seconds, forKey: "seconds")
+        UserDefaults.standard.setValue(sub_seconds, forKey: "sub_seconds")
+    }
+    
+    func makeLabelText(num:Int) -> String{
+        var labelText = "\(num)"
+        if num/10 < 1 {
+            labelText = "0\(num)"
+        }
+        return labelText
     }
 }
